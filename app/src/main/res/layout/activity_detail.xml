@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/eventDetailsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:id="@+id/activeStatusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/costPerLaunchTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/successRateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/wikipediaLinkTv"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/heightTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/diameterTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Name"
+        android:textColor="@color/semi_trans_black"
+        android:textSize="16sp" />
+</LinearLayout>
